@@ -1,9 +1,9 @@
 # Site settings
 title: PHOTORAMA
 email: ""
-description: "Photo Journal"
-url: "http://sunbliss.github.io"
-baseurl: "/photorama"
+description: "Pittsburgh Real Estate"
+url: "http://pankajtandon.github.io"
+baseurl: "/shaliniandsangita"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "http://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "http://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "http://sunbliss.github.io/photorama/about/"
+  - GALLERY: "http://pankajtandon.github.io/shaliniandsangita/gallery/"
+  - JOURNAL: "http://pankajtandon.github.io/shaliniandsangita/journal/"
+  - ABOUT: "http://pankajtandon.github.io/shaliniandsangita/about/"
 
 # All translation keys
 translations:
