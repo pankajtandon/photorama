@@ -1,5 +1,5 @@
 # Site settings
-title: PHOTORAMA
+title: Northwood Realty
 email: ""
 description: "Pittsburgh Real Estate"
 url: "http://pankajtandon.github.io"
@@ -15,7 +15,7 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   Northwood
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
@@ -33,9 +33,13 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "http://pankajtandon.github.io/shaliniandsangita/gallery/"
-  - JOURNAL: "http://pankajtandon.github.io/shaliniandsangita/journal/"
-  - ABOUT: "http://pankajtandon.github.io/shaliniandsangita/about/"
+  - HOW IT WORKS: "/shaliniandsangita/how/"
+  - TESTIMONIALS: "/shaliniandsangita/testimonials/"
+  - HOMES FOR SALE: "/shaliniandsangita/gallery/"
+  - HOMES WE'VE SOLD: "/shaliniandsangita/gallery/"
+  - AREAS SERVICED: "/shaliniandsangita/map/"
+  - EVENTS: "/shaliniandsangita/events/"
+  - CONTACT US: "/shaliniandsangita/about/"
 
 # All translation keys
 translations:
