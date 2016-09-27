@@ -2,7 +2,8 @@
 title: Northwood Realty
 email: ""
 description: "Pittsburgh Real Estate"
-url: "http://pankajtandon.github.io"
+#url: "http://pankajtandon.github.io"
+url: "http://localhost:4000"
 baseurl: "/shaliniandsangita"
 facebook_username: ""
 twitter_username: ""
@@ -35,7 +36,7 @@ comments :
 nav:
   - HOW IT WORKS: "/shaliniandsangita/how/"
   - TESTIMONIALS: "/shaliniandsangita/testimonials/"
-  - HOMES FOR SALE: "/shaliniandsangita/gallery/"
+  - HOMES FOR SALE: "/shaliniandsangita/properties/"
   - HOMES WE'VE SOLD: "/shaliniandsangita/gallery/"
   - AREAS SERVICED: "/shaliniandsangita/map/"
   - EVENTS: "/shaliniandsangita/events/"
