@@ -1,27 +1,30 @@
 ---
 layout: page
-title: "Available and Sold!"
-description: "Our Litings and Homes we have sold in the last 15 years in Pittsburgh!"
+title: ""
+description: "Here are some of the homes we have heped sell and buy over the past 15 years in Pittsburgh!"
 active: properties
-header-img: "img/sold-bg.jpg"
+header-img: "/properties/forSale.jpg"
 properties:
   sold:
-     - property-folder: /properties/123_maple_Street
-       property-name: 123 Maple Street
-       property-date: July 2015
-     - property-folder: /properties/255_Ohara_Street
-       property-name: 255 Ohara Street
+     - cover: /properties/123_Maple_Street/pics/cover.jpg
+       name: 123 Maple Street
+       date: July 2015
+     - cover: /properties/255_OHara_Street/pics/cover.jpg
+       name: 255 Ohara Street
+       property-date: June 2015
+     - cover: /properties/255_OHara_Street/pics/cover.jpg
+       name: 255 Ohara Street
        property-date: June 2015
   available:
-     - property-folder: /properties/245_Blackburn_Heights_Dr
-       property-name: 245 Blackburn Heights_Dr
-       property-date: Sept 2015
-     - property-folder: /properties/1B_Lefter_Street
-       property-name: 1B Lefter Street
-       property-date: Dec 2015
-     - property-folder: /properties/1_Tolstoy_Marg
-       property-name: 1 Tolstoy Marg
-       property-date: Dec 2015
+     - cover: /properties/245_Blackburn_Heights_Dr/pics/cover.jpg
+       name: 245 Blackburn Heights Drive
+       date: Sept 2015
+     - cover: /properties/1B_Lefter_Street/pics/cover.jpg
+       name: 1B Lefter Street
+       date: Dec 2015
+     - cover: /properties/1_Tolstoy_Marg/pics/cover.jpg
+       name: 1 Tolstoy Marg
+       date: Dec 2015
 ---
 
 <html class="no-js" lang="en">
@@ -40,27 +43,28 @@ properties:
 			
 			<!-- Gallery __-->
 			<div class="gallery masonry-gallery">
-				
+
 {% for image in page.properties.available %}
 
 	               <figure class="gallery-item">
                          <figure class="effect-selena">
 					<header class='gallery-icon'>
-		       
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.property-folder }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.property-folder }}/pics/cover.jpg"></a>
+
+                        <a href="{{site.url }}{{site.baseurl }}/properties">
+                            <img src="{{ site.url }}{{ site.baseurl }}{{image.cover }}"></a>
 
 					</header>	
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
-							<h3>{{image.property-name}}</h3>
-							<p>{{image.property-date}}</p>
+							<h3>{{image.name}}</h3>
+							<p>{{image.date}}</p>
 						</div>
 					</figcaption>
                        </figure>
 				</figure>
-							
-{% endfor %}		
+
+
+                {% endfor %}
 				
 			</div>
 			
@@ -79,14 +83,14 @@ properties:
                     <figure class="effect-selena">
                         <header class='gallery-icon'>
 
-                            <a href="{{ site.url }}{{ site.baseurl }}{{ image.property-folder }}">
-                                <img src="{{ site.url }}{{ site.baseurl }}{{ image.property-folder }}/pics/cover.jpg"></a>
+                            <a href="{{ site.url }}{{ site.baseurl }}/properties">
+                                <img src="{{ site.url }}{{ site.baseurl }}{{ image.cover }}"></a>
 
                         </header>
                         <figcaption class='gallery-caption'>
                             <div class="entry-summary">
-                                <h3>{{image.property-name}}</h3>
-                                <p>{{image.property-date}}</p>
+                                <h3>{{image.name}}</h3>
+                                <p>{{image.date}}</p>
                             </div>
                         </figcaption>
                     </figure>

@@ -12,7 +12,7 @@
 				$fullscreen_gallery.before('<ul id="gallerythumbs">').cycle({
 					slideExpr: '.gallery-item',
 					fx:        'fade', 
-		   			speed:     1000, 
+		   			speed:     100,
 					timeout:   5000,
 					pager:   	 '#gallerythumbs', 
 					slideResize: true,
